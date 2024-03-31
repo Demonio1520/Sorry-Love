@@ -1,6 +1,6 @@
 {
   "name": "Sorry Love",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Initial Webpack Proyect",
   "main": "index.js",
   "scripts": {
