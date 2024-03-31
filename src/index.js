@@ -7,8 +7,7 @@ export const main = document.querySelector('main'),
 div = document.querySelector('div'),
 buttons = document.querySelector('.buttons');
 
-export const reindeer = '../assets/img/reindeer.gif',
-emoji = '../assets/img/cute.png', newApp = new App();
+export const newApp = new App();
 let width = 10, height = 5, clicks = 0;
 
 // HTML Selectors

@@ -4,7 +4,7 @@ import {reindeer,emoji} from '../index.js'
 
 function addEmoji() {
     const img = document.createElement('img');
-    img.src = emoji;
+    img.src = './assets/img/cute.png';
     div.append(img);
 }
 
@@ -16,7 +16,7 @@ export function growUp(obj,width,height) {
 export class App {
     constructor() {
         const img = document.createElement('img');
-        img.src = reindeer;
+        img.src = './assets/img/reindeer.gif';
         main.append(img);
         addEmoji();
     }
@@ -29,7 +29,7 @@ export class App {
         div.classList.add('love','container');
         document.body.appendChild(div);
         p.textContent = 'Siii te amo, eres el amor de mi vida!';
-        img.src = '../assets/img/tiAmo.gif';
+        img.src = './assets/img/tiAmo.gif';
 
         buttons.remove();
         div.append(p);
