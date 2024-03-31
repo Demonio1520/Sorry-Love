@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #fafaf8;
+    font-size: 1.6rem;
+}
+img {
+    max-width: 100%;
+}
+
+/* Main Site */
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.main-img img {
+    border-bottom: 2px solid black;
+    margin-top: 5rem;
+    height: 20rem;
+    width: 20rem;
+}
+.container {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container p {
+    margin-bottom: 0;
+}
+.container img {
+    height: 4rem;
+    width: 4rem;
+}
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+.buttons button {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+    height: 5rem;
+    text-transform: uppercase;
+    width: 10rem;
+}
+.love {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.love img {
+    height: 25rem;
+    margin-top: 2rem;
+    width: 40rem;
+}
